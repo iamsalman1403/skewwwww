@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Skew</title>
+    <link rel="stylesheet" href="skew.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz"
+        crossorigin="anonymous">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+</head>
+<body>
+    <div class="landing-page">
+        <header>
+            <div class="menu">
+                <a href="#" onclick="openMenu()"><i class="fas fa-bars"></i></a>
+            </div>
+            <div class="brand">
+                <h1>Salman Parkar <span><i class="fas fa-crown"></i></span></h1>
+            </div>
+        </header>
+        <div class="landing-page-text">
+            <h1>Front-End Web Developer & Web Designer.</h1>
+            <a href="#sec-about" id="smoothScroll">Read More</a>
+        </div>
+    </div>
+    <div class="side-nav" id="side-menu">
+        <a href="#" id="button-close" onclick="closeMenu()"><i class="fas fa-times"></i></a>
+        <a href="#" id="home-link">Home</a>
+        <a href="#sec-about" onclick="shutMenu()">About</a>
+        <a href="#sec-services" onclick="shutMenu()">Services</a>
+        <a href="#sec-contact" onclick="shutMenu()">Contact</a>
+    </div>
+
+    <div id="sec-about" class="about-section">
+        <div class="about-section-head">
+            <h1>About</h1>
+            <hr>
+
+        </div>
+        <div class="about-section-text">
+            <p>I am a Front-End Web Developer, graduate of Information Technology. <br>
+            I have 2 years commercial experience providing front-end development, producing high quality responsive websites and exceptional user experience. <br>
+            I have a proficiency in <span class="topic">Responsive HTML5 and CSS3 <span class="stroke">|</span> JavaScript (vanilla, jQuery, and other frameworks) <span class="stroke">|</span> Bootstrap <span class="stroke">|</span> High-level user experience.</span> <br>
+            The work I provide is of highest quality, fully responsive, and tested in a wide range of devices. I take great care to
+            ensure each project is well-documented and easily maintainable so you can enhance a website as your company grows. <br>
+            Often front-end development of a website is overlooked, but being the part of your project that combines design,
+            back-end development and the layer that your users interact with, from my experience, it is the most important to get
+            right.
+        </p>
+        </div>
+
+    </div>
+
+    <div id="sec-about" class="about-section">
+        <div class="about-section-head">
+            <h1>Skills</h1>
+            <hr>
+    
+        </div>
+        <div class="about-section-text">
+            <p>HTML5</p>
+            <progress value="85" max="100"></progress><br>
+            <p>CSS3</p>
+            <progress value="80" max="100"></progress><br>
+            <p>JAVSSCRIPT</p>
+            <progress value="80" max="100"></progress><br>
+            <p>JQUERY</p>
+            <progress value="80" max="100"></progress><br>
+            <p>BOOTSTRAP</p>
+            <progress value="75" max="100"></progress><br>
+        </div>
+    
+    </div>
+
+<!--Services-->
+
+    <div id="sec-services" class="services-section">
+        <div class="services-section-head">
+            <h1>Services</h1>
+            <hr>
+        </div>
+
+        <div class="services-section-text">
+            <div class="boxes">
+                <div class="box">
+                    <h2>Fast <span><i class="fa fa-fighter-jet"></i></span></h2>
+                    <p>I build fast and efficient web sites. Fast websites always attract more visitors, and those visitors are more likely to
+                    choose you over the competition.</p>
+                </div>
+                <div class="box">
+                    <h2>Responsive <span><i class="fa fa-arrows-alt"></i></span></h2>
+                    <p>Responsive web design means that your website will work on any screen size, from desktops to mobile phones alike.
+                    Having a website that works well across all devices and screen sizes means your website has a broader reach, appealing
+                    to more visitors.</p>
+                </div>
+                <div class="box">
+                    <h2>Clean code <span><i class="fa fa-code"></i></span></h2>
+                    <p>I write clean, semantic, organized, and valid markup that eliminates excess code and allows others to easily understand
+                    and therfore update content in the future.</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!--works-->
+
+    <div class="works-section" id="sec-works">
+        <div class="work-head">
+            <h1>Works</h1>
+            <hr>
+        </div>
+        <div class="boxes">
+            <div class="box box1">
+                <div class="box-img">
+                    <img src="img1.png" alt="">
+                    <p>Lorem ipsum dolor sit.</p>
+                </div>
+            </div>
+            <div class="box box2">
+                <div class="box-img">
+                    <img src="img2.png" alt="">
+                    <p>Lorem ipsum dolor sit.</p>
+                </div>
+            </div>
+            <div class="box box3">
+                <div class="box-img">
+                    <img src="img3.png" alt="">
+                    <p>Lorem ipsum dolor sit.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    <!--Contact-->
+    <div id="sec-contact" class="contact-section">
+        <div class="contact-section-head">
+            <h1>Contact</h1>
+            <hr>
+        </div>
+        <div class="contact-section-text">
+            <div class="boxes">
+                <div class="box links">
+                    <h3>Follow me:</h3>
+                    <a href="#"><i class="fab fa-github-square"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-facebook"></i></a><br>
+                    <a href="#" class="small"><i class="fas fa-envelope"></i> slmnprkr1403@gmail.com</a><br>
+                    <a href="#" class="small"><i class="fas fa-phone"></i> +917021027249</a>
+                </div>
+                <div class="box quotation">
+                    <h3>Get a Quotation <span><i class="fas fa-hand-holding-usd"></i></span></h3>
+                    <form id="myForm">
+                    <input type="text" id="name" placeholder="Enter your name..."><br>
+                    <input type="email" id="email" placeholder="Enter your email..."><br>
+                    <textarea id="message" cols="30" rows="10" placeholder="Enter your message..."></textarea><br>
+                    <button id="button-submit" type="submit">Send</button>
+                </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+
+    <footer>
+        <p>Salman parkar | 2018 &copy;</p>
+    </footer>
+
+    <script src="skew.js"></script>
+</body>
+</html>
